@@ -1,2 +1,2 @@
 * linguist-vendored
-*.rb linguist-language=Shell
+*.ipynb linguist-language=Shell
