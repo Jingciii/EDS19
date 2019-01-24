@@ -1,2 +1,2 @@
 * linguist-vendored
-*.bash linguist-vendored=false
+*.shell linguist-vendored=false
