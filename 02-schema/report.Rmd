@@ -1,0 +1,22 @@
+---
+title: "Database Schemata"
+author: "Jingci Wang"
+date: "1/31/2019"
+output: pdf_document
+---
+
+
+```{r fig.width=8, fig.height=6,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("ERM/ERM.png")
+ grid.raster(img)
+```
+
+
+
+### Schema: repository
+ * repo: store the owner and project name of each repository
+ * user: store the name and email of users. The pair (name, email) is as composite primary key
+ * commit: 
+ * modification: store modification information for each commit
