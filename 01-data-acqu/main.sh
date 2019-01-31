@@ -21,6 +21,7 @@ repo_num=`awk 'END{print NR}' "$repos_list"`
 splitlines=$(( repo_num/8 ))
 split -l $splitlines "$repos_list"
 
+
 for repos in xa* ; do {
 #for x in ` awk '{print}' $repos `
 for x in ` cat $repos ` 
@@ -34,6 +35,7 @@ bash git_log.sh "$user" "$repo"
 wait
 
 echo "Done!"
+
 
 end=`date +%s` 
 
@@ -55,7 +57,6 @@ cat *file.csv >> files.csv
 rm *file.csv
 cd "$home"
 rm xa*
-
 
 
 # Calculate disk space taken
