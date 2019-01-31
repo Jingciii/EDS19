@@ -28,7 +28,7 @@ for x in ` cat $repos `
 {
 user="$(cut -d'/' -f1 <<<"$x")"
 repo="$(cut -d'/' -f2 <<<"$x")"
-bash git_log.sh "$user" "$repo"
+bash git_log.sh "$user" "$repo" "$repos_list"
 } 
 } & done
 
@@ -42,7 +42,7 @@ end=`date +%s`
 # Put all the files together
 # And remove useless files
 cd commit_metadata
-echo '"hash","author name","author email","author timestamp","committer name","committer email","committer timestamp"' > commits.csv
+echo '"hash","author name","author email","author timestamp","committer name","committer email","committer timestamp","repo_id"' > commits.csv
 cat *commit.csv >> commits.csv
 rm *commit.csv
 cd "$home"

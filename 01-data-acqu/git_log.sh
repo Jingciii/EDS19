@@ -1,8 +1,17 @@
 #!/bin/bash
 
 user="$1"
-
 repo="$2"
+repos_list="$3"
+repo_id=$(grep -n "${user}/${repo}" "$repos_list")
+
+
+repo_id=${repo_id:0:1}
+
+echo "repo_id is ${repo_id}"
+
+
+
 url="https://github.com/${user}/${repo}.git"
 
 git clone $url
@@ -20,7 +29,8 @@ filename="${user}_${repo}"
 # Collect the repos data for commits.csv
 #----------------------------------------
 
-git log --pretty=format:'"%H","%an","%ae","%ad","%cn","%ce","%ct"' > ${filename}commit.csv
+git log --pretty=format:'"%H","%an","%ae","%ad","%cn","%ce","%ct"' > commit_output.csv
+awk -v d="$repo_id" -F"," 'BEGIN { OFS = "," } {$8=d; print}' commit_output.csv > ${filename}commit.csv
 
 echo "*** Commits info for ${repo} have been collected..."
 
