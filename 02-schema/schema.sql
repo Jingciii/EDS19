@@ -1,6 +1,5 @@
 DROP SCHEMA IF EXISTS repository;
 
-
 CREATE SCHEMA IF NOT EXISTS  repository; 
 
 CREATE TABLE IF NOT EXISTS repository.repo (
@@ -8,7 +7,6 @@ id      INTEGER     PRIMARY KEY,
 owner    CHAR(100)    NOT NULL, 
 project   CHAR(100)    NOT NULL
 );
-
 
 CREATE TABLE IF NOT EXISTS   repository.user (
 name            CHAR(100)      NOT NULL, 
@@ -31,10 +29,6 @@ FOREIGN KEY (author_name, author_email)  REFERENCES repository.user (name, email
 FOREIGN KEY (committer_name, committer_email) REFERENCES repository.user (name, email),
 FOREIGN KEY (repo_id)  REFERENCES repo (id)
 ) ;
-
-
-
-
 
 CREATE TABLE IF NOT EXISTS  repository.modification (
 id         INTEGER     PRIMARY KEY, 
