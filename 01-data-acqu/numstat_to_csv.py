@@ -10,11 +10,14 @@ def print_buffer(buffer):
 
 if __name__ == '__main__':
     buffer = []
-    for line in sys.stdin:
-        if line.strip() == u'🐱':
-            if not buffer:
-                continue
-            print_buffer(buffer)
-            buffer.clear()
-        else:
-            buffer.append(line.strip())
+    try:
+        for line in sys.stdin:
+            if line.strip() == u'🐱':
+                if not buffer:
+                    continue
+                print_buffer(buffer)
+                buffer.clear()
+            else:
+                buffer.append(line.strip())
+    except:
+        pass
