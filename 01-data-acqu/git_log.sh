@@ -37,7 +37,7 @@ echo "*** Commits info for ${repo} have been collected..."
 # Collect the repos data for messages.csv
 #----------------------------------------
 
-git log --pretty=format:"%H %s %B🐱" | python3 messages_to_csv.py > ${filename}message.csv
+git log --pretty=format:"%H %s %B🐱" | iconv -t utf-8//IGNORE | python3 messages_to_csv.py > ${filename}message.csv
 
 echo "*** Messages info for ${repo} have been collected..."
 
@@ -47,7 +47,7 @@ git config diff.renameLimit 999999
 #-------------------------------------
 
 
-git log --pretty=format:🐱%n%H --numstat| python3 numstat_to_csv.py > ${filename}file.csv
+git log --pretty=format:🐱%n%H --numstat| iconv -t utf-8//IGNORE | python3 numstat_to_csv.py > ${filename}file.csv
 
 echo "*** File info for ${repo} have been collected..."
 

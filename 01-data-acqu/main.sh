@@ -18,7 +18,7 @@ prepare_directories
 
 repo_num=`awk 'END{print NR}' "$repos_list"`
 
-splitlines=$(( repo_num/8 ))
+splitlines=$(( repo_num/10 ))
 split -l $splitlines "$repos_list"
 
 
