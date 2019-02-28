@@ -36,7 +36,7 @@ execute the following lines once you've set the path
 ```
 04-truck/data-acqu/./main.sh 
 ```
-Then feed into your list of repos, and execute the sql script in `04-truck/database/database.sql'. This would automatically drop the former database if existing and build your new one. Finally, execute
+Then feed into your list of repos, and execute the sql script in `04-truck/database/database.sql`. This would automatically drop the former database if existing and build your new one. Finally, execute
 
 ```
 python 04-truck/truck_factor/truckfactor.py
