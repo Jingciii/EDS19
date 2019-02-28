@@ -1,200 +1,100 @@
-685: 17
-
-176: 1
-
-539: 22
-
-979: 43
-
-359: 1
-
-156: 8
-
-741: 6
-
-754: 7
-
-593: 244
-
-679: 6
-
-849: 2
-
-420: 2
-
-752: 245
-
-365: 3
-
-341: 18
-
-596: 15
-
-412: 8
-
-18: 13
-
-75: 11
-
-46: 1
-
-612: 6
-
-181: 2
-
-139: 2
-
-13: 18
-
-86: 2
-
-361: 1
-
-158: 11
-
-231: 1
-
-799: 81
-
-742: 24
-
-191: 3
-
-755: 1
-
-174: 2
-
-14: 15
-
-728: 2
-
-825: 1
-
-863: 1
-
-546: 2
-
-931: 18
-
-415: 1
-
-549: 4
-
-669: 6
-
-737: 3
-
-538: 4
-
-146: 3
-
-793: 6
-
-520: 2
-
-312: 2
-
-15: 4
-
-999: 2
-
-985: 4
-
-545: 2
-
-713: 5
-
-376: 1
-
-674: 2
-
-530: 5
-
-400: 1
-
-740: 4
-
-360: 2
-
-602: 3
-
-163: 1
-
-1008: 3
-
-391: 1
-
-220: 2
-
-297: 1
-
-40: 6
-
-706: 43
-
-653: 3
-
-595: 1
-
-277: 6
-
-738: 18
-
-749: 5
-
-791: 3
-
-954: 2
-
-952: 2
-
-170: 3
-
-972: 20
-
-349: 1
-
-837: 2
-
-750: 12
-
-778: 2
-
-195: 5
-
-581: 2
-
-330: 3
-
-185: 6
-
-739: 5
-
-308: 6
-
-43: 3
-
-90: 7
-
-148: 1
-
-235: 5
-
-21: 6
-
-531: 1
-
-875: 1
-
-572: 3
-
-746: 2
-
-659: 4
-
-342: 1
-
-198: 6
-
-154: 13
-
+freebsd/freebsd: 17
+moment/moment: 1
+llvm-mirror/clang: 22
+aosp-mirror/platform_frameworks_base: 43
+nrk/predis: 1
+angular/angular.js: 8
+fastlane/fastlane: 6
+diaspora/diaspora: 7
+torvalds/linux: 244
+mruby/mruby: 6
+celluloid/celluloid: 2
+drupal/drupal: 2
+Homebrew/homebrew-cask: 245
+symfony/routing: 3
+magento/magento2: 18
+git/git: 15
+PrestaShop/PrestaShop: 8
+python/cpython: 13
+saltstack/salt: 11
+sqlmapproject/sqlmap: 1
+numpy/numpy: 6
+zeit/next.js: 2
+openai/baselines: 2
+ansible/ansible: 18
+Rochester-NRT/RocAlphaGo: 2
+PHPOffice/PhpSpreadsheet: 1
+nodejs/node: 11
+quilljs/quill: 1
+Homebrew/homebrew-core: 81
+gitlabhq/gitlabhq: 24
+prettier/prettier: 3
+sass/sass: 1
+chartjs/Chart.js: 2
+scikit-learn/scikit-learn: 15
+kbengine/kbengine: 2
+samaaron/sonic-pi: 1
+rmosolgo/graphql-ruby: 1
+assimp/assimp: 2
+bazelbuild/bazel: 18
+ThinkUpLLC/ThinkUp: 1
+FreeCAD/FreeCAD: 4
+videolan/vlc: 6
+greenplum-db/gpdb: 3
+mysql/mysql-server: 4
+wagtail/wagtail: 3
+chef/chef: 6
+apache/incubator-weex: 2
+matomo-org/matomo: 2
+scrapy/scrapy: 4
+apache/incubator-druid: 2
+naver/pinpoint: 4
+hrydgard/ppsspp: 2
+openwrt/openwrt: 5
+opencart/opencart: 1
+systemd/systemd: 2
+zcash/zcash: 5
+phpmyadmin/phpmyadmin: 1
+discourse/discourse: 4
+symfony/debug: 2
+emscripten-core/emscripten: 3
+webpack/webpack: 1
+junit-team/junit4: 3
+WP-API/WP-API: 1
+Modernizr/Modernizr: 2
+laravel/laravel: 1
+reddit-archive/reddit: 6
+qmk/qmk_firmware: 43
+reactos/reactos: 3
+antirez/redis: 1
+angular/material: 6
+rails/rails: 18
+ruby/ruby: 5
+realm/jazzy: 3
+pockethub/PocketHub: 2
+wix/react-native-navigation: 2
+mui-org/material-ui: 3
+apache/hadoop: 20
+phpstan/phpstan: 1
+binarylogic/authlogic: 2
+rapid7/metasploit-framework: 12
+plataformatec/simple_form: 2
+adobe/brackets: 5
+flutter/engine: 2
+cakephp/cakephp: 3
+storybooks/storybook: 6
+jekyll/jekyll: 5
+yiisoft/yii2: 6
+mitmproxy/mitmproxy: 3
+matplotlib/matplotlib: 7
+freeCodeCamp/freeCodeCamp: 1
+emberjs/ember.js: 5
+home-assistant/home-assistant: 6
+gaoxiang12/slambook: 1
+jruby/jruby: 1
+gameplay3d/GamePlay: 3
+hashicorp/vagrant: 2
+swaywm/sway: 4
+monicahq/monica: 1
+serverless/serverless: 6
+facebook/react-native: 13
